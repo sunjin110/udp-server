@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	conn, err := net.Dial("udp", "127.0.0.1:1024")
+	conn, err := net.Dial("udp", "127.0.0.1:8080")
 	chkSe(err)
 
 	defer conn.Close()
