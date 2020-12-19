@@ -7,6 +7,8 @@ import (
 	"golang.org/x/net/ipv4"
 )
 
+// 参考
+// https://pkg.go.dev/golang.org/x/net/ipv4
 func main() {
 
 	// ifconfigで確認可能
