@@ -48,6 +48,9 @@ func main() {
 
 		} else {
 			log.Println("is not multicast")
+			go func() {
+				log.Printf("Reciving data: %s from %s\n", string(b[:n]), src.String())
+			}()
 		}
 	}
 
